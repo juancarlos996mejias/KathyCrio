@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#welcomeGeneral{
+    background-image: url("../img/hembron.webp");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+
+#contactoGeneral{
+    background-image: url('#');
+    background-size: cover;
+    background-color: #F5F5F5;
+    font-family:  'Roboto', sans-serif;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 150vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(120vh - 90px - 58px);
+    
+}
+
+
+
+p{
+    margin-top: 20px;
+    font-family:  'Roboto', sans-serif; 
+    color: #02c0b6;
+}
+
+.enfermeria p{
+    color: #c1e55f;
+}
+
+.contacto p{
+    color: #c1e55f;
+}
+
+.galeria p{
+    color: #c1e55f;  
+}
+
+.imgPrincipal img{
+    font-size: 50%;
+    
+}
+
+.imgPrincipal{
+    margin-top: 100px;
+}
+
+.home{
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+   margin-top: 10px;
+   height: 70px;
+    
+   
+
+}
+
+.home img{
+    
+    
+    width: 350px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 100px;
+     
+}
+.contenedorLogo{
+    margin-top: 20px;
+}
+
+.login img{
+    
+    height: 30px;
+    justify-content: end;
+    margin-right: 20px;
+    margin-left: 90%;
+    
+}
+
+.register img{
+    height: 30px;
+    justify-content: end;
+    margin-right: 30px;
+    
+}
+
+.container-boton{
+    background-color: #2e6329;
+    border:  1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+#Crio a{
+    margin-left: 20px;
+}
+
+.offcanvas-header{
+    background-color: #73777B;
+    
+}
+.offcanvas-header img{
+    height: 65px;
+}
+
+
+
+.quienes img{
+    margin-top: 30px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.quienes{
+    margin-top: 40px;
+}
+
+.construccion img{
+    margin-top: 8%;
+    height: 300px;
+margin-left: 40%;
+   
+}
+
+
+
+.parrafoQuienes p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C3333;
+    
+}
+
+
+
+#containerQuienes{
+    background-color: #c1e55f;
+    
+}
+
+
+
+.parrafoCrio p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #2C3333;
+}
+
+.parrafoMasaje p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    color: #2C3333;
+}
+
+.parrafoEnfermeria p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: #2C3333; 
+}
+
+#containerCrio{
+    background-color: #97DEFF;
+}
+
+.crioli img{
+    
+    height: 300px;
+    margin-left:  65%;
+    
+}
+
+.parrafoCrio p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.crioli{
+    margin-top: 40px;
+    
+}
+
+.masaje img{
+    margin-top: 30px;
+    height: 400px;
+}
+
+#containerMasaje{
+    background-color: #cbcbcb;
+}
+
+.masaje{
+    margin-top: 30px;
+   
+}
+.enfermeria img{
+    margin-top: 30px;
+    height: 400px;  
+}
+
+
+
+#containerEnfermeria{
+    background-color:#FBFFB1;
+}
+
+
+
+
+.footer-area{
+    padding: 40px 0px;
+    background-color: #02c0b6;
+    color: #fff;
+    
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 20px;
+    color: #2C3333;
+    
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: #ddd;
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #73777B;
+   
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: #fff;
+    width: 20px;
+}
+
+.direccion p{
+    color: #fff;
+    
+}
+
+.parrafo p{
+    color: #fff;  
+}
+
+.logoPrincipal{
+    
+    margin-right: 90%;
+    height: 700px;
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
